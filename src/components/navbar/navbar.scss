@@ -1,0 +1,42 @@
+.navbar {
+  padding-block: 1rem;
+
+  .container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+
+.nav_items {
+  display: flex;
+  gap: 2rem;
+
+  a {
+    text-decoration: none;
+    color: lightslategrey;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.nav_cta {
+  display: flex;
+  gap: 1rem;
+
+  button {
+    background: none;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    padding: 0.3rem 1rem;
+  }
+}
