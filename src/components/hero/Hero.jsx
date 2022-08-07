@@ -89,7 +89,7 @@ function Hero() {
             </div>
           </div>
           <button>
-            Proceed • Total $60 <span> ⇒ </span>
+            Proceed • Total ${`${usdValue ? usdValue : "..."}`} <span> ⇒ </span>
           </button>
         </div>
       </div>
