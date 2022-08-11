@@ -7,7 +7,9 @@ function Navbar() {
     <div className="navbar">
       <div className="container">
         <Link to="/" className="logo">
-          <h1>SafariPay</h1>
+          <h1>
+            Safari<span>Pay</span>
+          </h1>
         </Link>
         <div className="nav_items">
           <Link to="/">Home</Link>
@@ -16,8 +18,8 @@ function Navbar() {
           <Link to="/">Contact us</Link>
         </div>
         <div className="nav_cta">
-          <button>Sign Up</button>
-          <button>Login</button>
+          <button className="signup">Sign Up</button>
+          <button className="login">Login</button>
         </div>
       </div>
     </div>
