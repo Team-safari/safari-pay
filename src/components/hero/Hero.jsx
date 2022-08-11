@@ -81,7 +81,7 @@ function Hero() {
                   />
                 </div>
                 <span>
-                  <img src="/src/assets/enaira.svg" alt="enaira logo" />
+                  <img src="/enaira.svg" alt="enaira logo" />
                   <p>eNaira</p>
                 </span>
               </div>
