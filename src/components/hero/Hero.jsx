@@ -21,8 +21,7 @@ function Hero() {
     <div className="hero">
       <div className="hero_container">
         <div className="hero_text">
-          <h1>Make payment with ENaira;</h1>
-          <h1>Buy & sell with your ENaira</h1>
+          <h1>Immediately is a possibility with eNaira</h1>
           <p>
             Make easy fast reliable payments with your ENaira. It's safe, social
             and friendly, buy goods and services & pay with ENaira, it's that
