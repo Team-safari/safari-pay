@@ -1,0 +1,29 @@
+.values {
+  text-align: center;
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-block: 2rem;
+    padding-inline: 3rem;
+
+    > h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      color: #00ab6d;
+      text-transform: uppercase;
+    }
+
+    > h1 {
+      font-weight: 600;
+      font-size: 48px;
+      color: #494949;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+}
