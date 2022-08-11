@@ -21,12 +21,14 @@ function Hero() {
     <div className="hero">
       <div className="hero_container">
         <div className="hero_text">
-          <h1>Make payments with E-Naira</h1>
+          <h1>Make payment with ENaira;</h1>
+          <h1>Buy & sell with your ENaira</h1>
           <p>
-            Payments has never been easier, with Safari pay you can pay your
-            bills, receive payments and save.{" "}
-            <strong>All in cryptocurrency!</strong>
+            Make easy fast reliable payments with your ENaira. It's safe, social
+            and friendly, buy goods and services & pay with ENaira, it's that
+            easy.
           </p>
+          <button>Get Started for free</button>
         </div>
         <div className="hero_cta">
           <p>I want to buy</p>
@@ -79,11 +81,8 @@ function Hero() {
                   />
                 </div>
                 <span>
-                  <img
-                    src="https://rampnetwork.github.io/assets/flags/ng.svg"
-                    alt="NGN logo"
-                  />
-                  <p>NGN</p>
+                  <img src="/src/assets/enaira.svg" alt="enaira logo" />
+                  <p>eNaira</p>
                 </span>
               </div>
             </div>
