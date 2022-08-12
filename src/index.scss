@@ -83,3 +83,11 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield; /* Firefox */
 }
+
+button {
+  transition: all 0.2s ease;
+
+  &:active {
+    transform: translateY(2px);
+  }
+}

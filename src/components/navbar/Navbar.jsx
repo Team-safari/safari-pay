@@ -18,7 +18,9 @@ function Navbar() {
           <Link to="/">Contact us</Link>
         </div>
         <div className="nav_cta">
-          <button className="signup">Sign Up</button>
+          <Link to="/signup">
+            <button className="signup">Sign Up</button>
+          </Link>
           <button className="login">Login</button>
         </div>
       </div>
